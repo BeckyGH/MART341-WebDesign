@@ -1,0 +1,18 @@
+1. The internet is a global network of computers that are all interconnected and includes serivces such as the world wide web. 
+The World wide web is an information service that runs on the internet, where web pages(information) can connect through hyperlinks and url's. 
+
+2.The internet is a wire that connects computers together in order to share information. It has directly connected computers, servers, 
+that are communicating with each other. It uses IP, (Internet Protocol), that gives each device
+it's own unique address, and whether the device is connected directly or indirectly to the internet, the IP makes the devices
+accessible for communication and helps direct the traffic of information. Most home/personal
+devices(clients) need to use an ISP(Internet Service Provider) to get connected to the internet.
+
+3.A directory is a place where you can organize and store your files on your computer. It's the "container" where files are stored. 
+
+4. I think VCS will take some of the pressure off of making mistakes. I like the idea of being able to go back and access
+previous versions and that it allows for easy testing of ideas. 
+
+5. DONE
+6. I would have to say my favorite form of art is visual arts. I really enjoy the mediums of painting and drawing, whether it's traditional or digital. 
+
+ 
