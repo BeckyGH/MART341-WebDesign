@@ -1,0 +1,16 @@
+1. Provide three websites that you enjoy visiting?
+I enjoy visiting  Meow Wolf at https://meowwolf.com for it's artistic content, and I frequent the National Geographics website https://www.nationalgeographic.com.
+I also enjoy checking out Khan Academy at https://www.khanacademy.org, I find myself going down so many "rabbit holes" when I'm on that site, it keeps me entertained. 
+
+2. What is the relationship between an IP address and the DNS?
+Computers use domain name system as a way to look up an IP address that is associated with that domain name. Using a domain name is a user friendly way to map and access
+ IP addresses on the internet.
+
+3. What is a cookie?
+A cookie is a text file that has information/numbers on it that is sent from a website to identify your computer, it's like an ID card for your IP address. It gets stored and is used to help identify 
+your device and browsing history on that site. 
+  
+4. List the three essential parts of a URL.
+The scheme/protocol-the most common is Hypertext Transfer Protocol(HTTP) or Hypertext Transfer Protocol Secure (HTTPS).
+The Authority which includes the domain name.
+The path to the resource/file. 
