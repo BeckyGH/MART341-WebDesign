@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+<!-- The character set used: -->
+        <meta charset="UTF-8">
+<!-- Description of my page -->
+        <meta name="description" content="My favorite brick and mortar establishment">
+<!-- My author information for the page: -->
+        <meta name="author" content="Becky Gallegos">
+ <!-- The scaling of the view of the page: -->
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+      
+    <title>Seven Sushi Restaurant Contact page</title>
+<!--style elements-->
+            <style>
+                    body
+                        {
+                        background-image:url(images/sushi-background02.png);
+                        background-size: cover; 
+                        background-position: center; 
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-blend-mode:soft-light, lighten;
+                        }
+                        
+                    h1
+                        {
+                        color:rgb(252, 243, 232);
+                        text-align: center; 
+                        padding-top: 10px;
+                        font-size: 60px; 
+                        font-family:fantasy;
+                        font-weight: bold;
+                        font-style: italic;
+                        }
+                    
+                    h2
+                        {
+                        text-align: center;
+                        color:rgb(252, 243, 232);
+                        font-size: 40px;
+                        font-family: fantasy;
+                        font-weight: lighter;
+                        text-decoration: underline overline;
+                        }
+                    
+                    img
+                        {
+                        opacity: .7;
+                        margin-top: 30px;
+                        }
+                    
+                    p
+                        {
+                      text-align: center;
+                        }
+                
+                    address
+                        {
+                        color:#360C03; 
+                        text-align: center;
+                        font-weight: bolder;
+                        font-size: 24px;
+                        font-family: aubrey;
+                        }
+                        
+                    form
+                        {
+                        color:  #360C03;
+                        margin: 0 auto;
+                        text-align: left;
+                        margin-bottom: 65px;
+                        width: 600px;
+                        font-family:times georgia;
+                        font-size: 20px;
+                        border: rgb(5, 5, 5); 
+                        border-style:groove;
+                        }   
+                    
+                    label
+                        {
+                        color: #0f0300; 
+                        font-family: fantasy;
+                        font-size: 22px
+                        }     
+                    
+                    button
+                        {
+                        border-width: 5px;
+                        border-style:outset;  
+                         font-family: georgia; 
+                         font-size: 16px;
+                         font-weight: bold;
+                         color:#0f0300;
+                        }
+                      
+                    table.GeneratedTable
+                        {
+                        width: 600px;
+                        background-color:  #360C03; 
+                        border-width: 5px ;
+                        border-color:#360C03;
+                            padding-bottom: 10px;
+                            padding-top: 10px;
+                        margin: 0 auto;
+                          font-family: fantasy;
+                          font-size: 16px;
+                          font-weight: bolder;
+                          text-align: center;
+                       } 
+
+                    table.GeneratedTable thead 
+                       {
+                        background-color: #360C03;;
+                        font-size: 18px;
+                        text-align: center;
+                        color: rgb(250, 235, 216);
+                        font-family: georgia;
+                       }
+                        
+                    th,td
+                       {
+                        color:white;
+                          
+                       }
+            </style>
+                    
+     </head>
+
+<body>
+
+
+<!--Image of logo-->     
+    <p>
+        <img src="images/background-webpage.png" alt="A image of the outside of the restaurant seven in Bozeman Montana"
+             title="The Restaurant Seven Logo" width="600" height="300"/>
+     </p>      
+    
+<br>
+
+
+<h1>Contact Us</h1>
+
+<p >
+   <strong>
+       <address>
+            113 EAST OAK STREET, SUITE 1A, BOZEMAN, MT
+             <br/>
+             PHONE:  
+            <br>
+            <strong>406-577-2241</strong>
+            <br/>
+            EMAIL: 
+            <br>
+                <a href="mailto:rebecca.gallegoshollensbe@yahoo.com">management@sevensushi.com</a>
+        </address>
+    <strong>
+<p>
+
+<br>
+
+<!-----------------------------Beginning of Form for reservations-------------->
+<form action="/action_page.php" method="get">
+
+    <h2>Make an Online Reservation</h2>
+
+<!--Fieldset and Legend elements----input text-->
+    <fieldset>
+        <legend>RESERVATION DETAILS</legend>
+            <label for="fname"> * First Name:
+                <input type="text" id="fname" name="first_name" maxlength="20" autofocus required></label>
+        <br/>
+            <label for="lname">* Last Name:
+                <input type="text" id="lname" name="last_name" maxlength="25" required></label>
+         <br/>
+            <label for="pnumber">* Phone Number:
+                <input type="text" id="pnumber" name="phone_number" size="10" required> </label>
+        <br/>
+<!-- Number of Guests-->
+<label for="guests">* Number of Guests:
+    <input type="text" id="guests" name="phone_number" size="2" required> </label>
+
+    <br>
+<!--calendar for date of reservation---input date-->
+        <label for="dateofreservation">Date of Reservation<br/>
+            <input type="date" id="dateofreservation" name="reserveddate" required></label>
+        <br/>
+
+<!--Dropdown select--input element for times-->
+            <label for="Time">Set Time<br/>
+                <select name="dateofreservation">
+                    <option value="5">5pm</option>
+                    <option value="6">6pm</option>
+                    <option value="7">7pm</option>
+                    <option value="8">8pm</option>
+                    <option value="9">9pm</option>
+                    <option value="10">10pm</option>
+                
+                </select>
+        <br/>
+
+
+<!--textarea element to add additional info-->
+            <label for="moreinfo">Special Requests/Allergy Information:<br>
+                <textarea name="comments" id="moreinfo" placeholder="Enter up to 500 characters"></textarea></label>
+        <br/>
+        <br>
+<!--submit button-->
+            <button type="submit" value="submit" >PLACE RESERVATION</button>
+    
+    </fieldset>
+
+</form>
+<br>
+
+<!--beginning of table for business hours-->
+    <table class="GeneratedTable" >
+        <thead >
+            <th></th>
+            <th>BUSINESS HOURS</th>
+            <th></th>
+        </thead>
+
+        <tr>
+            <th>Monday-Thursday</td>
+            <th>Friday & Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <td>11:30am-10:00pm</td>
+            <td>12:00pm-11:00pm</td>
+            <td>11:30am-9:00pm</td>
+        </tr>
+
+    </table>
+
+<br/>
+
+
+</body>
+</html>
