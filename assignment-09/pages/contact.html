@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+            <meta charset="UTF-8">
+            <meta name="description" content="A contact page">
+            <meta name="author" content="Becky GH">
+            <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+    <title> Contact Page </title>
+    
+                <style>
+                        body{
+                            background-image: url(/images/flower-background.jpg);
+                            background-size: cover; 
+                            background-position: center; 
+                            background-repeat: no-repeat;
+                            background-attachment: fixed;
+                            }
+                        
+                        ul{
+                            background-color:#6dcf4f;
+                            text-align: center;
+                            padding:20px;
+                            margin-left: 350px;
+                            margin-right: 350px;
+                            border-radius: 10px;
+                            
+                        }
+
+                        li{
+                            display:inline;
+                            padding:5px;
+                        }
+
+                        p{
+                            text-align: center;
+                            font-size: 18px;
+                            font-family: Tahoma;
+                            margin-left: 250px;
+                            margin-right: 250px;
+                            background-color: #faf8fa;
+                            padding: 15px;
+                            color:black;
+                        }
+
+                        form{
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 24px;
+                          background-color: #faf8fa;
+                          color:black;
+                          margin-left: auto;
+                          margin-right: auto;
+                          max-width:600px;
+                          }
+
+                        .headings{
+                            text-align: center;
+                            font-size: 22px;
+                            font-family: Gill Sans;
+                        }
+                       
+                        .submissionfield{ 
+                            width: 70%; 
+                            height: 390px; 
+                            border: 5px solid #6dcf4f; 
+                            padding: 20px; 
+                        }   
+                      
+                        button{
+                        border-width: 5px;
+                        border-style:groove;  
+                         font-family: helvetica; 
+                         font-size: 18px;
+                         color:#0f0300;
+                        }
+                        .footer{
+                            color:black; 
+                            text-align: center; 
+                            padding-block-start: 100px;
+                             padding-bottom: 50px;
+                        }
+
+
+
+                </style>
+    </head>
+
+
+</body>
+
+<!-----start of main navigation division-same on all pages-------->
+<nav id="main" style="padding-top: 50px;">
+    <ul>
+     <li><a href="./index.html">Home</a> &middot; </li>
+     <li><a href="./about.html">About</a> &middot; </li>
+     <li><a href="./contact.html">Contact</a></li>
+
+     </ul>
+ </nav>
+<br>
+
+<!----header divisioin-->
+<div id="contact me" class="headings" style="font-family: Helvetica;">
+    <h1>CONTACT ME</h1>  
+        <p>
+            Got a question? I would love to hear from you! Send me a message and I'll respond as soon as possible.
+        </p>
+</div>
+<br>
+
+
+<!--------------------------------beginning of form for contact info--------------------------------------->
+<div id="form" >
+    <form action="/action_page.php" method="get" id="contact-form" class="submissionfield"  >
+
+<!----text input for name & email-->
+        <label for="fname"> First Name*
+                <input type="text" id="fname" name="first_name" maxlength="25"  style="width:163px;" 
+                        autofocus required></label>
+<br>
+        <label for="lname">Last Name*
+                <input type="text" id="lname" name="last_name" maxlength="25" style="width:165px;" ></label>
+<br>
+        <label for="email">Email*
+                <input type="email" id="email" name="email_address"  style="width:200px;"   required> </label>
+<br>
+
+<!---radio button for newsletter-->
+        <label>Sign Up for Monthly Newsletter: 
+                <input id="yes" type="radio" name="yesbutton" value="yes" >
+        <label for="yes">Yes</label> 
+                <input id="no" type="radio" name="nobutton" value="no">
+         <label for="no">No Thanks</label>
+    </label>
+ <br>
+
+
+<!---Message box-->
+    <label for="moreinfo">Message or Comments:<br>
+    <textarea name="messagebox" id="message" placeholder="Enter up to 500 characters"
+              style="height: 100px; width:400px;"></textarea></label>
+
+<br/>
+<br>
+<!--submit button-->
+<button type="submit" value="submit" style="margin-left: 100px;">Send Information</button>
+
+    </div>
+</form>
+<br>
+<!-------------------------------------------------END OF FORM element----------------------------------------->
+
+
+<!--copyright-->
+<div id="footer" class="footer">
+    &copy; ghtstudios-website design
+
+</div>
+
+
+</body>
+</html>
