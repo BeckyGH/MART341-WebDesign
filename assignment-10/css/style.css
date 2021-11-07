@@ -13,16 +13,6 @@
 *       {
         box-sizing: border-box;
         }
-
-
-body{
-      
-       background: url(/images/main-wallpaper.jpg);
-        background-size: cover; 
-        background-position: center; 
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
   
 h2{
         text-align: center;
