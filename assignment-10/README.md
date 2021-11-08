@@ -21,9 +21,7 @@ The colors I used for the images in the page are as follows:
 
 ## Free Response: Please discuss any challenges you had this week and how you overcame them.
 I struggled quite a bit with this asignment, in fact I have been working honestly ALL weekend (hrs upon hrs) trying to figure out "how to" pull off the design I wanted. 
-I did accomplish the style of how I wanted the page to look however, I could not figure out how to get it to be responsive, as in the text paragraphs to scale 
-in and out with the browser which was bothering me quite alot. It was like I had a design with images/backgrounds and paragraphs on top, the "design" would scale with the browser 
-but not the text of the paragraphs within the "design". ( not sure if that makes sense) This bothered me so much that I changed my design and learned how to make the webpage respond correctly to different 
-browser widths. Anyhow, this week I could of probably used a one on one zoom with you but it took me till Thursday to get through all the material and 
-I didn't anticipate this much trouble. I wasn't able to meet the position criteria of using absolute either, when i applied it to the elements or the classes it just looked funny 
-because of how I set up the rest of the content...I did learn ALOT through all my trial and errors though, WOWZA! 
+I did accomplish the style of how I wanted the page to look however, I could not figure out how to get it to be responsive, the text paragraphs wouldn't scale 
+within the design, which was bothering me quite alot. So, I changed my entire design and learned how to make the webpage respond correctly to different 
+browser widths.  I wasn't able to meet the position criteria of using absolute either, when i applied it to the elements or the classes it just looked funny 
+because of how I set up the rest of the content. Anyhow, this week there were alot of learning curves for me, I did learn ALOT through all my trial and errors though, WOWZA! 
