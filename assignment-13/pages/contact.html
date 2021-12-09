@@ -1,0 +1,103 @@
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="webpage design for client business">
+    <meta name="author" content="Becky GH">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+        <title>Easy Tours Company</title>
+
+        <link rel="stylesheet" href="/css/style.css">
+
+      
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="menu-item">
+            <a href="../index.html">home</a> 
+        </div>
+
+        <div class="menu-item dropdown">
+            <a href="about.html">About</a>
+        </div>
+
+        <div class="menu-item dropdown">
+            <a href="services.html">Services</a>
+
+            <div class="dropdown-content">
+                <div class="dropdown-item">
+                   <a href="https://www.nps.gov/yell/planyourvisit/guidedtours.htm" target="_blank">Guided Tours</a>
+                </div>
+                <div class="dropdown-item">
+                   <a href="https://www.yellowstonenationalparklodges.com/adventure/land-adventures/picture-perfect-photo-safari/" target="_blank">Photo Tours</a>
+                </div>
+                <div class="dropdown-item">
+                   <a href="https://wildlandtrekking.com/destination/yellowstone-hiking-tours/" target="_blank">Hiking Tours</a>
+                </div>
+                </div>
+        </div>
+
+        <div class="menu-item">
+            <a href="contact.html">contact</a>
+        </div>
+      
+    </nav>
+
+<br>
+<br>
+<h1> Book a Tour with Us!</h1>
+
+
+
+<div class="container">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.." required autofocus >
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="emailaddress" placeholder="abcdef@address.com" required>
+      <br>
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">USA</option>
+        <option value="canada">Canada</option>
+        <option value="usa">Mexico</option>
+      </select>
+  
+      <label for="subject">Message</label>
+      <textarea id="subject" name="subject" placeholder="Your Message here..." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+</div>
+
+<br>
+
+<div>
+    <address>
+        Madison Tours <br>
+        Po Box 5555<br>
+        West Yellowstone, MT 59758<br>
+
+    </address>
+</div>
+
+
+<div class="footer col-12">
+    <p> Madison Tours is a LLC and licensced by the National Park Service</p>
+    <p><a href="mailto:someone@example.com">madisontours@address.com</a></p>
+</div> 
+
+
+
+
+
+
+
+</body>
